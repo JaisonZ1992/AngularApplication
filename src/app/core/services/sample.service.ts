@@ -14,7 +14,7 @@ constructor(private httpClient: HttpClient) { }
 
   /**
    * API to validate user credentials
-   * @param username ShortID of the Daimler user
+   * @param username ShortID of the user
    * @param password Password of the user
    */
   authenticate(username: string, password: string) {
